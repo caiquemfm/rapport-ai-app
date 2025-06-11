@@ -6,7 +6,7 @@ import json
 st.set_page_config(page_title="Rapport.AI", page_icon="🧠")
 
 # ↓↓↓ COLOQUE SUA CHAVE DA API DA OPENAI AQUI DENTRO DAS ASPAS ↓↓↓
-OPENAI_API_KEY = st.secrets["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"]
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # --- A Lógica Principal (O "Cérebro") ---
 PROMPT_MESTRE = """
